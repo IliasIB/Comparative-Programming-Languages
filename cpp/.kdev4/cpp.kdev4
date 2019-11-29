@@ -1,0 +1,40 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x06\x00c\x00p\x00p)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/ilias/Repositories/Comparative-Programming-Languages/cpp/build
+Build Type=Release
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/home/ilias/Repositories/Comparative-Programming-Languages/cpp/install
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=pong
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00\x06\x00c\x00p\x00p\x00\x00\x00\x12\x00e\x00x\x00e\x00r\x00c\x00i\x00s\x00e\x00s\x00\x00\x00\x08\x00p\x00o\x00n\x00g)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/ilias/Repositories/Comparative-Programming-Languages/cpp
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=cpp,exercises,pong
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
